@@ -1,0 +1,87 @@
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+	
+	
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+	.main-menu li a {
+	  padding: 28px 3px !important;
+	}
+	.social-icon a,.scroll-header .social-icon a {
+	  margin: 18px 0;
+	  padding: 10px 5px;
+	}
+	.logo-area {
+	  padding: 29px 0 28px;
+	}
+	.services-area .container .row .col-sm-6:last-child {
+	  display: none;
+	}
+	.widgets {
+    margin-top: 40px;
+	}
+	
+}
+ 
+
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+	.container {width:450px}
+	.logo-area {
+	  border: 0;
+	}
+	.single-blog {
+    margin-bottom: 10px;
+	}
+	.widgets {
+    margin-top: 40px;
+	}
+}
+ 
+
+ /* small mobile :320px. */
+@media (max-width: 480px) {
+	.container {width:300px}
+	.slider-content h4 {
+	  font-size: 25px;}
+	.cd-headline.clip.is-full-width > span {
+	  font-size: 14px;
+	}
+	.remove{display:none}
+	 
+	.section-title::before {
+	  background: #000 none repeat scroll 0 0;
+	  bottom: 0;
+	  content: "";
+	  height: 1px;
+	  left: 0;
+	  margin: auto;
+	  position: absolute;
+	  right: 0;
+	  width: 40px;
+	}
+	.section-title img {
+	  display: none;
+	}
+	.owl-carousel .owl-nav div {
+	  display: none;
+	}
+	.logo-area {
+	  border: 0;
+	}
+	.cd-headline.clip .cd-words-wrapper {
+	  margin-top: 12px;
+	}
+	.single-blog {
+    margin-bottom: 10px;
+	}
+	.widgets {
+    margin-top: 20px;
+	}
+}
